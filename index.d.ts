@@ -96,7 +96,7 @@ export class Spi {
     public mode(mode: number): number;
     public frequency(hz: number): number;
     public writeByte(data: number): number;
-    public write_word(data: number): number;
+    public writeWord(data: number): number;
     public lsbmode(lsb: boolean): number;
     public bitPerWord(bits: number): number;
 }
